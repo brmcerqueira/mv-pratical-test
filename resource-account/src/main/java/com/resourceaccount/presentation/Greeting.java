@@ -1,4 +1,4 @@
-package resourceAccount.presentation;
+package com.resourceaccount.presentation;
 
 public class Greeting {
 
