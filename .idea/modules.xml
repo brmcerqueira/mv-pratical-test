@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-account.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-account_main.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-account_main.iml" group="resource-account" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/resource-account_test.iml" filepath="$PROJECT_DIR$/.idea/modules/resource-account_test.iml" group="resource-account" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/single-sign-on.iml" filepath="$PROJECT_DIR$/.idea/modules/single-sign-on.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/single-sign-on_main.iml" filepath="$PROJECT_DIR$/.idea/modules/single-sign-on_main.iml" group="single-sign-on" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/single-sign-on_test.iml" filepath="$PROJECT_DIR$/.idea/modules/single-sign-on_test.iml" group="single-sign-on" />
+      <module fileurl="file://$PROJECT_DIR$/web-ui/web-ui.iml" filepath="$PROJECT_DIR$/web-ui/web-ui.iml" />
+    </modules>
+  </component>
+</project>
