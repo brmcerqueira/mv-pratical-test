@@ -4,6 +4,7 @@ import com.resourceaccount.business.UserService;
 import com.resourceaccount.dto.UserListDto;
 import com.resourceaccount.dto.UserSaveDto;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -30,6 +31,7 @@ public class UserController {
         this.service.create(dto);
     }
 
+    @PreAuthorize("#oauth2.hasScope('read')")
     @RequestMapping(method = GET)
     public List<UserListDto> getAll() {
         return this.service.getAll();
