@@ -10,8 +10,8 @@ security:
   oauth2:
     client:
       clientId: foo
-      clientSecret: bar
-      accessTokenUri: http://localhost:8080/sso-server/oauth/token
-      userAuthorizationUri: http://localhost:8080/sso-server/oauth/authorize
+      clientSecret: $2a$04$e/c1/RfsWuThaWFCrcCuJeoyvwCV0URN/6Pn9ZFlrtIWaU/vj/BfG
+      accessTokenUri: http://localhost:8080/oauth/token
+      userAuthorizationUri: http://localhost:8080/oauth/authorize
     resource:
-      userInfoUri: http://localhost:8080/sso-server/user/me
+      userInfoUri: http://localhost:8080/user/me

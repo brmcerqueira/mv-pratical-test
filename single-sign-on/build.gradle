@@ -27,9 +27,11 @@ repositories {
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+parent.
+
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile group: 'org.springframework.security.oauth.boot', name: 'spring-security-oauth2-autoconfigure', version: '2.0.1.RELEASE'
+    compile 'org.springframework.security.oauth:spring-security-oauth2:2.0.10.RELEASE'
     compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.11'
     compile 'javax.xml.bind:jaxb-api:2.2.11'
     compile 'com.sun.xml.bind:jaxb-core:2.2.11'
